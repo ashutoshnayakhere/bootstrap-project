@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root
+{
+    --primary-color:#049E78;
+
+    --background-color:#012b25;
+
+    --white-color:#ffffff;
+
+    --heading-text:#000;
+
+    --text-color:#333;
+
+    --green-color:#1ef3ba;
+
+   --mygreen:#0c831f;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html
+{
+    /* font-size: 63%; */
+}
+body
+{
+   
+    font-family: 'Lato',sans-serif;
+    /* font-size: 1.8rem; */
+    line-height: 1.6;
+}
+.bg-header
+{
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+    background-color: var(--white-color);
+}
+.hero-section 
+{
+    background-color:var(--primary-color) ;
+}
+
+/* .btn 
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} */
+ion-icon 
+{
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 1.2rem;
+    background-color:var(--primary-color);
+    border-radius: 50%;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testimonials
+{
+    background-color:var(--background-color) !important;
+}
+
+.footer a
+{
+    text-decoration: none !important;
+}
+
+
+
+
+#backtotop.show
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#backtotop {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #backtotop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #backtotop:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #backtotop:active {
+    background-color: #555;
+  }
+  #backtotop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Styles for the content section */
+  
+  
+ 
